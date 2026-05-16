@@ -1,0 +1,38 @@
+[
+  {
+    "id": "adr:privacy-record-authority-boundary",
+    "number": 1001,
+    "slug": "privacy-record-authority-boundary",
+    "title": "Privacy Record Authority Boundary",
+    "filename": "ADR-1001-privacy-record-authority-boundary.yaml",
+    "target_path": ".ssot/adr/ADR-1001-privacy-record-authority-boundary.yaml",
+    "sha256": "6348c7a3fd66a61ac0410d13514b0fa4d3d05a0b55b8385c002c517283643daa",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-privacy-governance-records",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  },
+  {
+    "id": "adr:consent-receipt-and-dpv-governance",
+    "number": 1002,
+    "slug": "consent-receipt-and-dpv-governance",
+    "title": "Consent Receipt And DPV Governance",
+    "filename": "ADR-1002-consent-receipt-and-dpv-governance.yaml",
+    "target_path": ".ssot/adr/ADR-1002-consent-receipt-and-dpv-governance.yaml",
+    "sha256": "47c77fa3e283036e89f41fc1b05527eaaa3844ae562b18bdaf71f9206af169ad",
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-privacy-governance-records",
+    "immutable": true,
+    "minimum_schema_version": "0.4.0",
+    "introduced_in": "0.1.0",
+    "status": "accepted",
+    "supersedes": [],
+    "superseded_by": [],
+    "status_notes": []
+  }
+]

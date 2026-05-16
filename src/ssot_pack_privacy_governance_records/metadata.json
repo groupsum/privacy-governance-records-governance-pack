@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "ssot_package_name": "ssot-pack-privacy-governance-records",
+  "origin": {
+    "id": "pack:privacy-governance-records",
+    "package_name": "ssot-pack-privacy-governance-records",
+    "import_name": "ssot_pack_privacy_governance_records",
+    "kind": "governance-pack",
+    "title": "Privacy Governance And Consent Records",
+    "description": "Installable SSOT governance pack for privacy records, consent receipts, notices, DPV processing records, and audit evidence.",
+    "homepage": "https://github.com/groupsum/privacy-governance-records-governance-pack",
+    "repository": "https://github.com/groupsum/privacy-governance-records-governance-pack"
+  },
+  "compatibility": {
+    "python": ">=3.10,<3.15",
+    "ssot_registry_schema": ">=0.4.0",
+    "ssot_pack_contract": ">=0.2.17,<0.3.0"
+  },
+  "trust": {
+    "trusted_by_default": false,
+    "origin": "extension-pack",
+    "reservation_owner": "extension-pack:ssot-pack-privacy-governance-records"
+  },
+  "documents": {
+    "adr": {
+      "manifest_path": "templates/adr/manifest.json"
+    },
+    "spec": {
+      "manifest_path": "templates/specs/manifest.json"
+    }
+  }
+}
