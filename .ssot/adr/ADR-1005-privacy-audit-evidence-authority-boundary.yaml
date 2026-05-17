@@ -1,0 +1,28 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1005"
+number: 1005
+slug: "privacy-audit-evidence-authority-boundary"
+title: "Privacy Audit Evidence Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "ISO/IEC 27701 defines privacy information management system controls and privacy management evidence context. ISO/IEC 27018 defines public-cloud PII protection controls. Privacy governance records often require evidence that policies, notices, consent records, processing records, and controls were reviewed or operated."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  ISO/IEC 27701 defines privacy information management system controls and privacy management evidence context. ISO/IEC 27018 defines public-cloud PII protection controls. Privacy governance records often require evidence that policies, notices, consent records, processing records, and controls were reviewed or operated.
+  
+  ## Decision
+  
+  Privacy audit evidence source curation covers PIMS evidence, public-cloud PII protection evidence, control evidence, reviewer context, timestamp context, retention context, and accountability traceability. Audit evidence targets must remain separate from notices, consent records, consent receipts, and DPV processing records unless explicit linkage targets are curated.
+  
+  ## Authority Sources
+  
+  - ISO/IEC 27701 Privacy Information Management System.
+  - ISO/IEC 27018 Public-cloud PII protection.

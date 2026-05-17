@@ -1,0 +1,24 @@
+{
+  "id": "adr:iso-27018-cloud-pii-policy",
+  "number": 1009,
+  "slug": "iso-27018-cloud-pii-policy",
+  "title": "ISO 27018 Cloud PII Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "ISO/IEC 27018 defines public-cloud PII protection controls and related evidence context.",
+    "Cloud PII protection evidence can be required when privacy governance records involve public-cloud processors or services."
+  ],
+  "decision": [
+    "Use ISO/IEC 27018 when a downstream system governs public-cloud PII protection evidence.",
+    "Preserve cloud service context, PII protection control context, obligation, evidence artifact, reviewer, and timestamp where used."
+  ],
+  "authority_sources": [
+    "ISO/IEC 27018 Public-cloud PII protection"
+  ],
+  "consequences": [
+    "Public-cloud PII evidence remains tied to cloud protection authority.",
+    "Cloud evidence can support governance records without replacing consent, notice, or DPV record authority."
+  ]
+}

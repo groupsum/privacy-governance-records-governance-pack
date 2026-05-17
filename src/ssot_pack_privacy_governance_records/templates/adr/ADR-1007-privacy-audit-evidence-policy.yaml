@@ -1,0 +1,25 @@
+{
+  "id": "adr:privacy-audit-evidence-policy",
+  "number": 1007,
+  "slug": "privacy-audit-evidence-policy",
+  "title": "Privacy Audit Evidence Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Privacy governance records often require evidence that notices, consent records, processing records, and controls were reviewed, operated, or retained.",
+    "Audit evidence is different from the governed notice or record itself."
+  ],
+  "decision": [
+    "Require privacy audit evidence to preserve control, obligation, evidence artifact, reviewer, timestamp, retention, and audit trace context where used.",
+    "Keep evidence records separate from notices, consent records, receipts, and DPV records unless explicit linkage rules are documented."
+  ],
+  "authority_sources": [
+    "ISO/IEC 27701 Privacy Information Management System",
+    "ISO/IEC 27018 Public-cloud PII protection"
+  ],
+  "consequences": [
+    "Evidence can support governance claims without replacing source records.",
+    "Audit traceability becomes testable through evidence linkage."
+  ]
+}

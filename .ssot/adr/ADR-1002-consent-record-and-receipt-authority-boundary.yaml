@@ -1,0 +1,28 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1002"
+number: 1002
+slug: "consent-record-and-receipt-authority-boundary"
+title: "Consent Record And Receipt Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "ISO/IEC TS 27560 defines consent record information structure. Kantara Consent Receipt Specification defines consent receipt representation for communicating consent details. Both address consent evidence, but they have distinct record and receipt semantics."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  ISO/IEC TS 27560 defines consent record information structure. Kantara Consent Receipt Specification defines consent receipt representation for communicating consent details. Both address consent evidence, but they have distinct record and receipt semantics.
+  
+  ## Decision
+  
+  Consent record and receipt source curation covers consent subject, controller, processor or service provider, service, purpose, policy, jurisdiction, collection method, timestamp, lifecycle state, and withdrawal context where governed by the source. Consent record targets and consent receipt targets must remain separate unless an explicit mapping target is curated.
+  
+  ## Authority Sources
+  
+  - ISO/IEC TS 27560 Consent record information structure.
+  - Kantara Consent Receipt Specification.

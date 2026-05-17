@@ -1,0 +1,24 @@
+{
+  "id": "adr:iso-27701-pims-policy",
+  "number": 1008,
+  "slug": "iso-27701-pims-policy",
+  "title": "ISO 27701 PIMS Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "ISO/IEC 27701 defines privacy information management system controls and privacy management evidence context.",
+    "PIMS evidence can support auditability of privacy governance records."
+  ],
+  "decision": [
+    "Use ISO/IEC 27701 when a downstream system governs PIMS control evidence or privacy management accountability evidence.",
+    "Preserve control identity, obligation, implementation evidence, reviewer, timestamp, and status where used."
+  ],
+  "authority_sources": [
+    "ISO/IEC 27701 Privacy Information Management System"
+  ],
+  "consequences": [
+    "PIMS evidence remains distinguishable from consent records and processing records.",
+    "Control evidence can be linked to privacy governance artifacts without becoming those artifacts."
+  ]
+}

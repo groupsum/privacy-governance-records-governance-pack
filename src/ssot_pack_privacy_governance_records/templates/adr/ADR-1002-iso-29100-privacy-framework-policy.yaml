@@ -1,0 +1,24 @@
+{
+  "id": "adr:iso-29100-privacy-framework-policy",
+  "number": 1002,
+  "slug": "iso-29100-privacy-framework-policy",
+  "title": "ISO 29100 Privacy Framework Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "ISO/IEC 29100 defines a privacy framework including privacy principles and PII role concepts.",
+    "Downstream privacy records often need a stable role and principle vocabulary."
+  ],
+  "decision": [
+    "Use ISO/IEC 29100 when a downstream system governs privacy principles or PII role semantics.",
+    "Keep privacy framework role/principle semantics distinct from notice, consent record, consent receipt, DPV, and audit-evidence structures."
+  ],
+  "authority_sources": [
+    "ISO/IEC 29100 Privacy Framework"
+  ],
+  "consequences": [
+    "Privacy records can classify PII principals, controllers, processors, and privacy principles consistently.",
+    "Role semantics must not imply consent record or notice structure without the relevant authority."
+  ]
+}

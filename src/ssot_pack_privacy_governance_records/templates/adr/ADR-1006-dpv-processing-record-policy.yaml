@@ -1,0 +1,24 @@
+{
+  "id": "adr:dpv-processing-record-policy",
+  "number": 1006,
+  "slug": "dpv-processing-record-policy",
+  "title": "DPV Processing Record Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "W3C Data Privacy Vocabulary provides terms for processing, purpose, legal basis, personal data, recipients, rights, risks, measures, and related privacy governance concepts.",
+    "DPV vocabulary can describe processing records and link to notices, consent records, and audit evidence."
+  ],
+  "decision": [
+    "Use W3C DPV when a downstream system governs processing record vocabulary or mappings.",
+    "Preserve DPV term identity and mapping context for processing, purpose, legal basis, data category, recipient, right, risk, and measure fields."
+  ],
+  "authority_sources": [
+    "W3C Data Privacy Vocabulary"
+  ],
+  "consequences": [
+    "Processing records are vocabulary-grounded and mappable to notices, consent records, and evidence.",
+    "DPV terms must not be flattened into generic text without retaining vocabulary identity."
+  ]
+}

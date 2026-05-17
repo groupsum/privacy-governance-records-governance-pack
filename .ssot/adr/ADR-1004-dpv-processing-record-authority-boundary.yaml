@@ -1,0 +1,27 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1004"
+number: 1004
+slug: "dpv-processing-record-authority-boundary"
+title: "DPV Processing Record Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "W3C Data Privacy Vocabulary provides vocabulary for describing processing, purposes, personal data categories, legal bases, recipients, rights, risks, measures, and related privacy governance concepts."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  W3C Data Privacy Vocabulary provides vocabulary for describing processing, purposes, personal data categories, legal bases, recipients, rights, risks, measures, and related privacy governance concepts.
+  
+  ## Decision
+  
+  DPV source curation covers processing record vocabulary targets, including purpose, processing, legal basis, personal data category, data subject, recipient, rights, risks, safeguards, and technical or organizational measures. DPV targets must remain vocabulary targets and must not be treated as complete consent receipt or audit evidence records unless explicit mapping targets are curated.
+  
+  ## Authority Sources
+  
+  - W3C Data Privacy Vocabulary.

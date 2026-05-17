@@ -1,0 +1,24 @@
+{
+  "id": "adr:iso-27560-consent-record-policy",
+  "number": 1004,
+  "slug": "iso-27560-consent-record-policy",
+  "title": "ISO 27560 Consent Record Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "ISO/IEC TS 27560 defines consent record information structure.",
+    "Consent records are durable governance records and are different from runtime consent signals."
+  ],
+  "decision": [
+    "Use ISO/IEC TS 27560 when a downstream system governs consent record information structure.",
+    "Preserve consent subject, controller, purpose, service, policy, timestamp, lifecycle state, and withdrawal context where used."
+  ],
+  "authority_sources": [
+    "ISO/IEC TS 27560 Consent record information structure"
+  ],
+  "consequences": [
+    "Consent record structure remains auditable and lifecycle-aware.",
+    "Runtime consent signals must be mapped into consent records explicitly before becoming durable record evidence."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "adr:privacy-governance-record-source-policy",
+  "number": 1001,
+  "slug": "privacy-governance-record-source-policy",
+  "title": "Privacy Governance Record Source Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Durable privacy governance records can include privacy notices, consent records, consent receipts, processing records, PIMS evidence, public-cloud PII protection evidence, and audit records.",
+    "These record families have different authority sources and should not be merged without a documented source policy."
+  ],
+  "decision": [
+    "Adopt an explicit privacy governance record source policy before treating privacy records as authoritative.",
+    "Classify each governed record by source family: ISO/IEC 29100, ISO/IEC 29184, ISO/IEC TS 27560, Kantara Consent Receipt, W3C DPV, ISO/IEC 27701, or ISO/IEC 27018."
+  ],
+  "authority_sources": [
+    "ISO/IEC 29100 Privacy Framework",
+    "ISO/IEC 29184 Online privacy notices and consent",
+    "ISO/IEC TS 27560 Consent record information structure",
+    "Kantara Consent Receipt Specification",
+    "W3C Data Privacy Vocabulary",
+    "ISO/IEC 27701 Privacy Information Management System",
+    "ISO/IEC 27018 Public-cloud PII protection"
+  ],
+  "consequences": [
+    "Privacy governance records must preserve enough source context to distinguish notices, records, receipts, processing vocabulary, controls, evidence, and audit traceability.",
+    "Conflicts between sources require documented mapping, precedence, or rejection rules."
+  ]
+}

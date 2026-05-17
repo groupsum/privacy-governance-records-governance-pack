@@ -1,0 +1,27 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1003"
+number: 1003
+slug: "privacy-notice-authority-boundary"
+title: "Privacy Notice Authority Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "ISO/IEC 29184 defines concepts for online privacy notices and consent, including notice content and communication around consent requests."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  ISO/IEC 29184 defines concepts for online privacy notices and consent, including notice content and communication around consent requests.
+  
+  ## Decision
+  
+  Privacy notice source curation covers notice content, presentation, timing, accessibility, consent request context, withdrawal context, versioning, and update semantics where governed by ISO/IEC 29184. Privacy notice targets must remain separate from consent record and processing record targets unless explicit linkage targets are curated.
+  
+  ## Authority Sources
+  
+  - ISO/IEC 29184 Online privacy notices and consent.

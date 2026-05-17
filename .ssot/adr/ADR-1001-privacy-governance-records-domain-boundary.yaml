@@ -1,0 +1,37 @@
+schema_version: 9
+kind: "adr"
+id: "adr:1001"
+number: 1001
+slug: "privacy-governance-records-domain-boundary"
+title: "Privacy Governance Records Domain Boundary"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "This repository curates authority sources for durable privacy governance records, consent records, consent receipts, privacy notices, processing records, privacy management evidence, public-cloud PII protection evidence, and audit traceability."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Context
+  
+  This repository curates authority sources for durable privacy governance records, consent records, consent receipts, privacy notices, processing records, privacy management evidence, public-cloud PII protection evidence, and audit traceability.
+  
+  Privacy governance records are durable governance artifacts. They are distinct from runtime consent-signal exchange, analytics events, advertising signals, and customer profile attributes even when those systems produce evidence used by governance records.
+  
+  ## Decision
+  
+  The pack-local domain boundary is privacy governance and consent-record source curation. It includes authority targets for ISO/IEC 29100 privacy framework concepts, ISO/IEC 29184 privacy notice concepts, ISO/IEC TS 27560 consent record structure, Kantara Consent Receipt representation, W3C DPV processing vocabulary, ISO/IEC 27701 privacy management evidence, and ISO/IEC 27018 public-cloud PII protection evidence.
+  
+  The boundary excludes runtime consent signal exchange, ad-tech transparency, digital analytics event collection, product/catalog semantics, customer profile semantics, and marketing attribution records except where a listed privacy-governance authority directly governs a durable privacy record or evidence field.
+  
+  ## Authority Sources
+  
+  - ISO/IEC 29100 Privacy Framework.
+  - ISO/IEC 29184 Online privacy notices and consent.
+  - ISO/IEC TS 27560 Consent record information structure.
+  - Kantara Consent Receipt Specification.
+  - W3C Data Privacy Vocabulary.
+  - ISO/IEC 27701 Privacy Information Management System.
+  - ISO/IEC 27018 Public-cloud PII protection.

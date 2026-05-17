@@ -1,0 +1,28 @@
+{
+  "id": "adr:privacy-record-retention-policy",
+  "number": 1010,
+  "slug": "privacy-record-retention-policy",
+  "title": "Privacy Record Retention Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Privacy governance records often require retention, versioning, archival, supersession, withdrawal, deletion, and export behavior.",
+    "Retention semantics apply across notices, consent records, consent receipts, processing records, and audit evidence."
+  ],
+  "decision": [
+    "Define retention, versioning, deletion, supersession, archival, and export behavior for durable privacy governance records.",
+    "Preserve source record identity and lifecycle history when privacy records are updated or retired."
+  ],
+  "authority_sources": [
+    "ISO/IEC TS 27560 Consent record information structure",
+    "Kantara Consent Receipt Specification",
+    "ISO/IEC 29184 Online privacy notices and consent",
+    "W3C Data Privacy Vocabulary",
+    "ISO/IEC 27701 Privacy Information Management System"
+  ],
+  "consequences": [
+    "Privacy records can be retained and exported with lifecycle context.",
+    "Deletion or supersession behavior is explicit rather than incidental."
+  ]
+}

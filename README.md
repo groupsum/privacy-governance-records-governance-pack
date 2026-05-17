@@ -29,8 +29,16 @@ Privacy Governance And Consent Records
 
 ## Included ADRs
 
-- `adr:privacy-record-authority-boundary` - Privacy Record Authority Boundary
-- `adr:consent-receipt-and-dpv-governance` - Consent Receipt And DPV Governance
+- `adr:privacy-governance-record-source-policy` - Privacy Governance Record Source Policy
+- `adr:iso-29100-privacy-framework-policy` - ISO 29100 Privacy Framework Policy
+- `adr:iso-29184-privacy-notice-policy` - ISO 29184 Privacy Notice Policy
+- `adr:iso-27560-consent-record-policy` - ISO 27560 Consent Record Policy
+- `adr:kantara-consent-receipt-policy` - Kantara Consent Receipt Policy
+- `adr:dpv-processing-record-policy` - DPV Processing Record Policy
+- `adr:privacy-audit-evidence-policy` - Privacy Audit Evidence Policy
+- `adr:iso-27701-pims-policy` - ISO 27701 PIMS Policy
+- `adr:iso-27018-cloud-pii-policy` - ISO 27018 Cloud PII Policy
+- `adr:privacy-record-retention-policy` - Privacy Record Retention Policy
 
 ## Included SPECs
 

@@ -1,0 +1,24 @@
+{
+  "id": "adr:iso-29184-privacy-notice-policy",
+  "number": 1003,
+  "slug": "iso-29184-privacy-notice-policy",
+  "title": "ISO 29184 Privacy Notice Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "ISO/IEC 29184 governs online privacy notices and consent-related notice concepts.",
+    "Privacy notices can be linked to consent records and processing records, but they are distinct governance artifacts."
+  ],
+  "decision": [
+    "Use ISO/IEC 29184 when a downstream system governs online privacy notice content, presentation, timing, accessibility, or consent-request context.",
+    "Preserve notice identity, version, content, presentation context, and update semantics where used."
+  ],
+  "authority_sources": [
+    "ISO/IEC 29184 Online privacy notices and consent"
+  ],
+  "consequences": [
+    "Notice records are testable as notice artifacts rather than generic policy text.",
+    "Notice evidence can link to consent records without replacing consent record authority."
+  ]
+}

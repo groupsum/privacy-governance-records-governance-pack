@@ -1,0 +1,24 @@
+{
+  "id": "adr:kantara-consent-receipt-policy",
+  "number": 1005,
+  "slug": "kantara-consent-receipt-policy",
+  "title": "Kantara Consent Receipt Policy",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "context": [
+    "Kantara Consent Receipt Specification defines a receipt-oriented representation for communicating consent details.",
+    "Consent receipts may overlap with consent records but have distinct communication and receipt metadata semantics."
+  ],
+  "decision": [
+    "Use Kantara Consent Receipt Specification when a downstream system emits, stores, or validates consent receipts.",
+    "Keep consent receipt representation separate from ISO consent record structure unless explicit mapping rules are documented."
+  ],
+  "authority_sources": [
+    "Kantara Consent Receipt Specification"
+  ],
+  "consequences": [
+    "Consent receipt records retain subject, controller, service, purpose, policy, jurisdiction, timestamp, and receipt metadata where used.",
+    "Receipt evidence can be linked to consent records without becoming the complete record model."
+  ]
+}
