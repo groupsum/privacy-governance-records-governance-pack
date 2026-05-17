@@ -1,0 +1,21 @@
+{
+  "id": "spc:iso-29100-pii-role-requirements",
+  "number": 2002,
+  "slug": "iso-29100-pii-role-requirements",
+  "title": "ISO 29100 PII Role Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iso-29100-privacy-framework-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC 29100 Privacy Framework"
+  ],
+  "requirements": [
+    "Represent PII principal, controller, processor, and related role semantics where used.",
+    "Preserve role identity separately from organization display names and contact data.",
+    "Document mappings when role semantics are copied into notices, consent records, receipts, or DPV records."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "spc:kantara-consent-receipt-policy-requirements",
+  "number": 2008,
+  "slug": "kantara-consent-receipt-policy-requirements",
+  "title": "Kantara Consent Receipt Policy Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:kantara-consent-receipt-policy"
+  ],
+  "authority_sources": [
+    "Kantara Consent Receipt Specification"
+  ],
+  "requirements": [
+    "Represent policy, jurisdiction, collection method, receipt metadata, and service context where used.",
+    "Preserve receipt policy context separately from notice content and DPV processing vocabulary.",
+    "Define behavior when a receipt references a policy or notice version that has been superseded."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "spc:dpv-processing-purpose-requirements",
+  "number": 2009,
+  "slug": "dpv-processing-purpose-requirements",
+  "title": "DPV Processing Purpose Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:dpv-processing-record-policy"
+  ],
+  "authority_sources": [
+    "W3C Data Privacy Vocabulary"
+  ],
+  "requirements": [
+    "Represent DPV processing, purpose, and legal basis vocabulary terms where used.",
+    "Preserve DPV term identifiers and mapping context rather than only display labels.",
+    "Document links from processing purpose records to notices, consent records, or audit evidence where applicable."
+  ]
+}

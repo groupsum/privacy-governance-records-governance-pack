@@ -1,0 +1,37 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2001"
+number: 2001
+slug: "privacy-governance-record-target-curation-requirements"
+title: "Privacy Governance Record Target Curation Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating durable privacy governance record targets from authoritative source families."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating durable privacy governance record targets from authoritative source families.
+  
+  ## Requirements
+  
+  - The curated target set MUST distinguish privacy framework targets, privacy notice targets, consent record targets, consent receipt targets, DPV processing vocabulary targets, PIMS evidence targets, cloud PII evidence targets, retention targets, export targets, and evidence-linkage targets.
+  - The curated target set MUST NOT treat runtime consent signal exchange, analytics event collection, advertising supply-chain transparency, product catalog semantics, customer profile semantics, or marketing attribution records as privacy governance records unless a listed privacy-governance authority directly governs a durable record or evidence field.
+  - Each target SHOULD identify whether it governs a notice, consent record, consent receipt, processing vocabulary field, control evidence field, cloud PII evidence field, retention field, export field, or linkage field.
+  - Each target SHOULD preserve source family and authority source names so downstream adopters can map implementation choices to the correct authority.
+  
+  ## Authority Sources
+  
+  - ISO/IEC 29100 Privacy Framework.
+  - ISO/IEC 29184 Online privacy notices and consent.
+  - ISO/IEC TS 27560 Consent record information structure.
+  - Kantara Consent Receipt Specification.
+  - W3C Data Privacy Vocabulary.
+  - ISO/IEC 27701 Privacy Information Management System.
+  - ISO/IEC 27018 Public-cloud PII protection.
+spec_kind: "normative"

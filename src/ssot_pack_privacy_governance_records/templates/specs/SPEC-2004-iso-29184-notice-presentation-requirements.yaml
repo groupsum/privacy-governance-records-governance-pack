@@ -1,0 +1,21 @@
+{
+  "id": "spc:iso-29184-notice-presentation-requirements",
+  "number": 2004,
+  "slug": "iso-29184-notice-presentation-requirements",
+  "title": "ISO 29184 Notice Presentation Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iso-29184-privacy-notice-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC 29184 Online privacy notices and consent"
+  ],
+  "requirements": [
+    "Preserve notice presentation timing, channel, accessibility, language, and version context where used.",
+    "Record evidence that a notice was presented, made available, or updated when downstream governance requires it.",
+    "Define behavior when a notice is superseded, withdrawn, or replaced."
+  ]
+}

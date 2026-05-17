@@ -1,0 +1,21 @@
+{
+  "id": "spc:dpv-personal-data-category-requirements",
+  "number": 2010,
+  "slug": "dpv-personal-data-category-requirements",
+  "title": "DPV Personal Data Category Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:dpv-processing-record-policy"
+  ],
+  "authority_sources": [
+    "W3C Data Privacy Vocabulary"
+  ],
+  "requirements": [
+    "Represent DPV personal data category, data subject, recipient, and related vocabulary terms where used.",
+    "Preserve vocabulary term identifiers and mappings to internal data classes.",
+    "Document behavior when a data category maps to more than one downstream schema field."
+  ]
+}

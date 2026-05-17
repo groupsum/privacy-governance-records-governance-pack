@@ -1,0 +1,22 @@
+{
+  "id": "spc:iso-27018-cloud-pii-evidence-requirements",
+  "number": 2013,
+  "slug": "iso-27018-cloud-pii-evidence-requirements",
+  "title": "ISO 27018 Cloud PII Evidence Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iso-27018-cloud-pii-policy",
+    "adr:privacy-audit-evidence-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC 27018 Public-cloud PII protection"
+  ],
+  "requirements": [
+    "Represent public-cloud PII protection evidence with cloud service context, processor context, control context, evidence artifact, reviewer, and timestamp where used.",
+    "Preserve links between cloud PII evidence and privacy governance records where applicable.",
+    "Define behavior when cloud-service evidence is missing, stale, or superseded."
+  ]
+}

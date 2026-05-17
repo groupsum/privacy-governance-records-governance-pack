@@ -1,0 +1,21 @@
+{
+  "id": "spc:dpv-rights-risk-measure-requirements",
+  "number": 2011,
+  "slug": "dpv-rights-risk-measure-requirements",
+  "title": "DPV Rights Risk Measure Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:dpv-processing-record-policy"
+  ],
+  "authority_sources": [
+    "W3C Data Privacy Vocabulary"
+  ],
+  "requirements": [
+    "Represent DPV rights, risks, safeguards, technical measures, and organizational measures where used.",
+    "Preserve links between risks, measures, and processing activities where curated.",
+    "Document mappings from DPV measures to audit evidence or control records where applicable."
+  ]
+}

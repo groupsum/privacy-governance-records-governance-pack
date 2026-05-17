@@ -1,0 +1,26 @@
+{
+  "id": "spc:privacy-record-export-requirements",
+  "number": 2015,
+  "slug": "privacy-record-export-requirements",
+  "title": "Privacy Record Export Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:privacy-record-retention-policy",
+    "adr:privacy-audit-evidence-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC TS 27560 Consent record information structure",
+    "Kantara Consent Receipt Specification",
+    "ISO/IEC 29184 Online privacy notices and consent",
+    "W3C Data Privacy Vocabulary",
+    "ISO/IEC 27701 Privacy Information Management System"
+  ],
+  "requirements": [
+    "Export privacy records with record identity, source authority, version, lifecycle state, and audit trace context where applicable.",
+    "Preserve links among exported notices, consent records, receipts, processing records, and evidence records.",
+    "Define behavior when export omits restricted, expired, or deleted evidence."
+  ]
+}

@@ -42,10 +42,22 @@ Privacy Governance And Consent Records
 
 ## Included SPECs
 
-- `spc:consent-record-contract` - Consent Record Contract
-- `spc:privacy-notice-contract` - Privacy Notice Contract
-- `spc:dpv-processing-record-contract` - DPV Processing Record Contract
-- `spc:privacy-audit-evidence-contract` - Privacy Audit Evidence Contract
+- `spc:iso-29100-privacy-principles-requirements` - ISO 29100 Privacy Principles Requirements
+- `spc:iso-29100-pii-role-requirements` - ISO 29100 PII Role Requirements
+- `spc:iso-29184-notice-content-requirements` - ISO 29184 Notice Content Requirements
+- `spc:iso-29184-notice-presentation-requirements` - ISO 29184 Notice Presentation Requirements
+- `spc:iso-27560-consent-record-structure-requirements` - ISO 27560 Consent Record Structure Requirements
+- `spc:iso-27560-consent-lifecycle-requirements` - ISO 27560 Consent Lifecycle Requirements
+- `spc:kantara-consent-receipt-core-requirements` - Kantara Consent Receipt Core Requirements
+- `spc:kantara-consent-receipt-policy-requirements` - Kantara Consent Receipt Policy Requirements
+- `spc:dpv-processing-purpose-requirements` - DPV Processing Purpose Requirements
+- `spc:dpv-personal-data-category-requirements` - DPV Personal Data Category Requirements
+- `spc:dpv-rights-risk-measure-requirements` - DPV Rights Risk Measure Requirements
+- `spc:iso-27701-pims-evidence-requirements` - ISO 27701 PIMS Evidence Requirements
+- `spc:iso-27018-cloud-pii-evidence-requirements` - ISO 27018 Cloud PII Evidence Requirements
+- `spc:privacy-record-retention-requirements` - Privacy Record Retention Requirements
+- `spc:privacy-record-export-requirements` - Privacy Record Export Requirements
+- `spc:privacy-record-evidence-linkage-requirements` - Privacy Record Evidence Linkage Requirements
 
 ## Install With uv
 

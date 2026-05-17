@@ -1,0 +1,22 @@
+{
+  "id": "spc:iso-27701-pims-evidence-requirements",
+  "number": 2012,
+  "slug": "iso-27701-pims-evidence-requirements",
+  "title": "ISO 27701 PIMS Evidence Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iso-27701-pims-policy",
+    "adr:privacy-audit-evidence-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC 27701 Privacy Information Management System"
+  ],
+  "requirements": [
+    "Represent PIMS control evidence, obligation context, implementation evidence, reviewer, timestamp, and status where used.",
+    "Preserve evidence links to notices, consent records, processing records, or controls where applicable.",
+    "Do not flatten PIMS control evidence into generic audit notes without retaining control context."
+  ]
+}

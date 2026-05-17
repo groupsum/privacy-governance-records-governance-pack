@@ -1,0 +1,21 @@
+{
+  "id": "spc:iso-27560-consent-record-structure-requirements",
+  "number": 2005,
+  "slug": "iso-27560-consent-record-structure-requirements",
+  "title": "ISO 27560 Consent Record Structure Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iso-27560-consent-record-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC TS 27560 Consent record information structure"
+  ],
+  "requirements": [
+    "Represent consent record subject, controller, processor or service provider, service, purpose, policy, timestamp, and source context where used.",
+    "Preserve consent record fields separately from runtime signal fields.",
+    "Document mappings from notices, receipts, and processing records into the consent record."
+  ]
+}

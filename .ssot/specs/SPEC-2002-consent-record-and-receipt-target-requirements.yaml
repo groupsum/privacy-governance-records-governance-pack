@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2002"
+number: 2002
+slug: "consent-record-and-receipt-target-requirements"
+title: "Consent Record And Receipt Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating consent record and consent receipt targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating consent record and consent receipt targets.
+  
+  ## Requirements
+  
+  - Consent record targets MUST preserve data subject, controller, processor or service provider, purpose, service, policy, timestamp, lifecycle state, and withdrawal context where the source authority defines those semantics.
+  - Consent receipt targets MUST preserve receipt identity, consent subject, controller, service, purpose, policy, jurisdiction, collection method, timestamp, and receipt metadata where the source authority defines those semantics.
+  - Consent record targets and consent receipt targets MUST remain separate unless an explicit mapping target is curated.
+  - Runtime consent signals MUST NOT be curated as consent records or consent receipts unless a durable record authority governs the persisted record fields.
+  
+  ## Authority Sources
+  
+  - ISO/IEC TS 27560 Consent record information structure.
+  - Kantara Consent Receipt Specification.
+spec_kind: "normative"

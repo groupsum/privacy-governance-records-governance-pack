@@ -1,0 +1,32 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2005"
+number: 2005
+slug: "privacy-audit-evidence-target-requirements"
+title: "Privacy Audit Evidence Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating privacy audit evidence targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating privacy audit evidence targets.
+  
+  ## Requirements
+  
+  - Privacy audit evidence targets MUST preserve control, obligation, evidence artifact, reviewer or approver, timestamp, status, retention context, and audit trace context where applicable.
+  - PIMS evidence targets SHOULD preserve ISO/IEC 27701 control and accountability context.
+  - Public-cloud PII evidence targets SHOULD preserve ISO/IEC 27018 control, cloud service, and processor context.
+  - Evidence targets MUST remain separate from notices, consent records, consent receipts, and DPV processing records unless explicit linkage targets are curated.
+  
+  ## Authority Sources
+  
+  - ISO/IEC 27701 Privacy Information Management System.
+  - ISO/IEC 27018 Public-cloud PII protection.
+spec_kind: "normative"

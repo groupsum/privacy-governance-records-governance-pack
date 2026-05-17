@@ -1,0 +1,31 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2003"
+number: 2003
+slug: "privacy-notice-target-requirements"
+title: "Privacy Notice Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating online privacy notice targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating online privacy notice targets.
+  
+  ## Requirements
+  
+  - Privacy notice targets MUST preserve notice identity, notice version, notice content, notice presentation context, timing, accessibility, and update semantics where applicable.
+  - Consent request targets SHOULD preserve the relationship between a notice, the requested consent, the affected purposes, and available withdrawal mechanisms.
+  - Privacy notice targets MUST remain separate from consent record and DPV processing targets unless explicit linkage targets are curated.
+  - Notice evidence SHOULD preserve enough context to show which notice version was presented or made available.
+  
+  ## Authority Sources
+  
+  - ISO/IEC 29184 Online privacy notices and consent.
+spec_kind: "normative"

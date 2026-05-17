@@ -1,0 +1,31 @@
+schema_version: 9
+kind: "spec"
+id: "spc:2004"
+number: 2004
+slug: "dpv-processing-record-target-requirements"
+title: "DPV Processing Record Target Requirements"
+status: "accepted"
+origin: "repo-local"
+decision_date: null
+tags: []
+summary: "Define pack-local requirements for curating DPV processing record targets."
+supersedes: []
+superseded_by: []
+status_notes: []
+references: []
+body: |-
+  ## Purpose
+  
+  Define pack-local requirements for curating DPV processing record targets.
+  
+  ## Requirements
+  
+  - DPV targets MUST preserve vocabulary identity for processing, purpose, legal basis, personal data category, data subject, recipient, right, risk, safeguard, and technical or organizational measure fields where used.
+  - DPV processing targets SHOULD preserve mappings to notices, consent records, and audit evidence where such mappings are curated.
+  - DPV targets MUST remain vocabulary targets and MUST NOT be curated as complete consent receipts or audit records unless explicit mapping targets are curated.
+  - DPV targets SHOULD preserve source term identifiers rather than only human-readable labels.
+  
+  ## Authority Sources
+  
+  - W3C Data Privacy Vocabulary.
+spec_kind: "normative"

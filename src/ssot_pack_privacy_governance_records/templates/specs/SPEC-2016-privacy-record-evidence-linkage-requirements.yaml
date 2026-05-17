@@ -1,0 +1,27 @@
+{
+  "id": "spc:privacy-record-evidence-linkage-requirements",
+  "number": 2016,
+  "slug": "privacy-record-evidence-linkage-requirements",
+  "title": "Privacy Record Evidence Linkage Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:privacy-audit-evidence-policy",
+    "adr:privacy-governance-record-source-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC 27701 Privacy Information Management System",
+    "ISO/IEC 27018 Public-cloud PII protection",
+    "ISO/IEC 29184 Online privacy notices and consent",
+    "ISO/IEC TS 27560 Consent record information structure",
+    "Kantara Consent Receipt Specification",
+    "W3C Data Privacy Vocabulary"
+  ],
+  "requirements": [
+    "Link notices, consent records, consent receipts, DPV processing records, controls, evidence, and audit reports where those links are used.",
+    "Preserve link type, source record, target record, timestamp, and evidence rationale.",
+    "Test that evidence links remain valid after record supersession, retention changes, or export."
+  ]
+}

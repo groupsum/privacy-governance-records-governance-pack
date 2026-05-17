@@ -1,0 +1,21 @@
+{
+  "id": "spc:iso-29184-notice-content-requirements",
+  "number": 2003,
+  "slug": "iso-29184-notice-content-requirements",
+  "title": "ISO 29184 Notice Content Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iso-29184-privacy-notice-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC 29184 Online privacy notices and consent"
+  ],
+  "requirements": [
+    "Represent privacy notice content, identity, version, controller context, purpose context, and contact context where used.",
+    "Preserve notice text and structured notice fields separately when both are used.",
+    "Document which consent request or processing record a notice supports when linked."
+  ]
+}

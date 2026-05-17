@@ -1,0 +1,21 @@
+{
+  "id": "spc:kantara-consent-receipt-core-requirements",
+  "number": 2007,
+  "slug": "kantara-consent-receipt-core-requirements",
+  "title": "Kantara Consent Receipt Core Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:kantara-consent-receipt-policy"
+  ],
+  "authority_sources": [
+    "Kantara Consent Receipt Specification"
+  ],
+  "requirements": [
+    "Represent receipt identity, subject, controller, service, purpose, timestamp, and consent context where used.",
+    "Preserve receipt fields separately from the underlying durable consent record when both exist.",
+    "Document mappings between consent receipt and consent record fields."
+  ]
+}

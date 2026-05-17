@@ -1,0 +1,22 @@
+{
+  "id": "spc:iso-27560-consent-lifecycle-requirements",
+  "number": 2006,
+  "slug": "iso-27560-consent-lifecycle-requirements",
+  "title": "ISO 27560 Consent Lifecycle Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:iso-27560-consent-record-policy",
+    "adr:privacy-record-retention-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC TS 27560 Consent record information structure"
+  ],
+  "requirements": [
+    "Represent consent grant, change, withdrawal, expiry, supersession, and retention state where used.",
+    "Preserve lifecycle timestamps and the source of each lifecycle transition.",
+    "Define behavior when withdrawal, expiry, or supersession affects linked records."
+  ]
+}

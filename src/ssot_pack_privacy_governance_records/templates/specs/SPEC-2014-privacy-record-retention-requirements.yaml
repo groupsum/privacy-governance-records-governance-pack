@@ -1,0 +1,25 @@
+{
+  "id": "spc:privacy-record-retention-requirements",
+  "number": 2014,
+  "slug": "privacy-record-retention-requirements",
+  "title": "Privacy Record Retention Requirements",
+  "status": "accepted",
+  "supersedes": [],
+  "superseded_by": [],
+  "spec_kind": "normative",
+  "adr_ids": [
+    "adr:privacy-record-retention-policy"
+  ],
+  "authority_sources": [
+    "ISO/IEC TS 27560 Consent record information structure",
+    "Kantara Consent Receipt Specification",
+    "ISO/IEC 29184 Online privacy notices and consent",
+    "W3C Data Privacy Vocabulary",
+    "ISO/IEC 27701 Privacy Information Management System"
+  ],
+  "requirements": [
+    "Represent retention period, retention basis, archival state, deletion state, supersession state, and lifecycle timestamps where used.",
+    "Preserve source record identity when records are superseded, withdrawn, archived, or deleted.",
+    "Define behavior for retention conflicts across record families."
+  ]
+}
