@@ -1,4 +1,4 @@
-# ssot-pack-privacy-governance-records
+# privacy-governance-records-governance-pack
 
 Installable SSOT governance pack for privacy records, consent receipts, notices, DPV processing records, and audit evidence.
 
@@ -8,10 +8,10 @@ This repository is an installable SSOT Registry governance pack. It packages imm
 
 - Pack ID: `pack:privacy-governance-records`
 - Priority: `P0.3`
-- PyPI package: `ssot-pack-privacy-governance-records`
+- PyPI package: `privacy-governance-records-governance-pack`
 - Import package: `ssot_pack_privacy_governance_records`
 - GitHub repository: `groupsum/privacy-governance-records-governance-pack`
-- Reservation owner: `extension-pack:ssot-pack-privacy-governance-records`
+- Reservation owner: `extension-pack:privacy-governance-records-governance-pack`
 
 ## Domain Focus
 
@@ -62,15 +62,15 @@ Privacy Governance And Consent Records
 ## Install With uv
 
 ```bash
-uv add ssot-pack-privacy-governance-records
-uv add ssot-registry ssot-pack-privacy-governance-records
+uv add privacy-governance-records-governance-pack
+uv add ssot-registry privacy-governance-records-governance-pack
 ```
 
 ## Use With The SSOT Registry CLI
 
 ```bash
-uvx --from ssot-registry ssot pack install ssot-pack-privacy-governance-records
-uvx --from ssot-registry ssot pack sync . ssot-pack-privacy-governance-records
+uvx --from ssot-registry ssot pack install privacy-governance-records-governance-pack
+uvx --from ssot-registry ssot pack sync . privacy-governance-records-governance-pack
 uv run ssot adr list .
 uv run ssot spec list .
 ```
@@ -87,5 +87,5 @@ spec_manifest = load_document_manifest("spec")
 ## Resources
 
 - GitHub repository: https://github.com/groupsum/privacy-governance-records-governance-pack
-- PyPI package: https://pypi.org/project/ssot-pack-privacy-governance-records/
+- PyPI package: https://pypi.org/project/privacy-governance-records-governance-pack/
 - SSOT Registry: https://pypi.org/project/ssot-registry/

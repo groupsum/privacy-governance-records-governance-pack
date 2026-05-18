@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "ssot_package_name": "ssot-pack-privacy-governance-records",
+  "ssot_package_name": "privacy-governance-records-governance-pack",
   "origin": {
     "id": "pack:privacy-governance-records",
-    "package_name": "ssot-pack-privacy-governance-records",
+    "package_name": "privacy-governance-records-governance-pack",
     "import_name": "ssot_pack_privacy_governance_records",
     "kind": "governance-pack",
     "title": "Privacy Governance And Consent Records",
@@ -19,7 +19,7 @@
   "trust": {
     "trusted_by_default": false,
     "origin": "extension-pack",
-    "reservation_owner": "extension-pack:ssot-pack-privacy-governance-records"
+    "reservation_owner": "extension-pack:privacy-governance-records-governance-pack"
   },
   "documents": {
     "adr": {

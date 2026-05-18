@@ -16,21 +16,21 @@ from ssot_pack_privacy_governance_records import (
 class GovernancePackManifestTests(unittest.TestCase):
     def test_pack_metadata_contract_is_exposed(self) -> None:
         metadata = load_pack_metadata()
-        self.assertEqual("ssot-pack-privacy-governance-records", __ssot_package_name__)
-        self.assertEqual("ssot-pack-privacy-governance-records", __pypi_package_name__)
+        self.assertEqual("privacy-governance-records-governance-pack", __ssot_package_name__)
+        self.assertEqual("privacy-governance-records-governance-pack", __pypi_package_name__)
         self.assertEqual("1.0.0", metadata["schema_version"])
-        self.assertEqual("ssot-pack-privacy-governance-records", metadata["ssot_package_name"])
+        self.assertEqual("privacy-governance-records-governance-pack", metadata["ssot_package_name"])
         self.assertEqual("pack:privacy-governance-records", metadata["origin"]["id"])
         self.assertEqual("ssot_pack_privacy_governance_records", metadata["origin"]["import_name"])
         self.assertEqual("governance-pack", metadata["origin"]["kind"])
         self.assertEqual("extension-pack", metadata["trust"]["origin"])
-        self.assertEqual("extension-pack:ssot-pack-privacy-governance-records", metadata["trust"]["reservation_owner"])
+        self.assertEqual("extension-pack:privacy-governance-records-governance-pack", metadata["trust"]["reservation_owner"])
         self.assertFalse(metadata["trust"]["trusted_by_default"])
         self.assertEqual("1.0.0", load_pack_schema_version())
 
     def test_pack_manifest_contract_is_exposed(self) -> None:
         manifest = load_pack_manifest()
-        self.assertEqual("ssot-pack-privacy-governance-records", manifest["metadata"]["origin"]["package_name"])
+        self.assertEqual("privacy-governance-records-governance-pack", manifest["metadata"]["origin"]["package_name"])
         self.assertEqual(10, len(manifest["documents"]["adr"]))
         self.assertEqual(16, len(manifest["documents"]["spec"]))
 

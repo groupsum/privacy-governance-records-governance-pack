@@ -90,7 +90,7 @@ wheels = [
 ]
 
 [[package]]
-name = "ssot-pack-privacy-governance-records"
+name = "privacy-governance-records-governance-pack"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

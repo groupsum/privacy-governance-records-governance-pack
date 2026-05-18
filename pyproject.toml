@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ssot-pack-privacy-governance-records"
+name = "privacy-governance-records-governance-pack"
 version = "0.1.0"
 description = "Installable SSOT governance pack for privacy records, consent receipts, notices, DPV processing records, and audit evidence."
 readme = "README.md"
@@ -44,9 +44,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/groupsum/ssot-pack-privacy-governance-records"
-Repository = "https://github.com/groupsum/ssot-pack-privacy-governance-records"
-Issues = "https://github.com/groupsum/ssot-pack-privacy-governance-records/issues"
+Homepage = "https://github.com/groupsum/privacy-governance-records-governance-pack"
+Repository = "https://github.com/groupsum/privacy-governance-records-governance-pack"
+Issues = "https://github.com/groupsum/privacy-governance-records-governance-pack/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

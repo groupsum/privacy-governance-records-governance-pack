@@ -13,7 +13,7 @@ except ModuleNotFoundError:  # pragma: no cover
 ROOT = Path(__file__).resolve().parents[1]
 ADR_TEMPLATES = ROOT / "src" / "ssot_pack_privacy_governance_records" / "templates" / "adr"
 SPEC_TEMPLATES = ROOT / "src" / "ssot_pack_privacy_governance_records" / "templates" / "specs"
-RESERVATION_OWNER = "extension-pack:ssot-pack-privacy-governance-records"
+RESERVATION_OWNER = "extension-pack:privacy-governance-records-governance-pack"
 MINIMUM_SCHEMA_VERSION = "0.4.0"
 
 
