@@ -28,7 +28,6 @@ Use this package when a downstream repository needs to answer: which standards, 
 ## Pack Metadata
 
 - Pack ID: `pack:privacy-governance-records`
-- Priority: `P0.3`
 - PyPI package: `privacy-governance-records-governance-pack`
 - Import package: `ssot_pack_privacy_governance_records`
 - GitHub repository: `groupsum/privacy-governance-records-governance-pack`
