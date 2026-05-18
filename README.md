@@ -1,8 +1,29 @@
 # privacy-governance-records-governance-pack
 
+[![PyPI version](https://img.shields.io/pypi/v/privacy-governance-records-governance-pack.svg)](https://pypi.org/project/privacy-governance-records-governance-pack/)
+[![Python versions](https://img.shields.io/pypi/pyversions/privacy-governance-records-governance-pack.svg)](https://pypi.org/project/privacy-governance-records-governance-pack/)
+[![License](https://img.shields.io/pypi/l/privacy-governance-records-governance-pack.svg)](https://pypi.org/project/privacy-governance-records-governance-pack/)
+[![Publish](https://github.com/groupsum/privacy-governance-records-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/privacy-governance-records-governance-pack/actions/workflows/publish.yml)
+[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/privacy-governance-records-governance-pack)
+
 Installable SSOT governance pack for privacy records, consent receipts, notices, DPV processing records, and audit evidence.
 
 This repository is an installable SSOT Registry governance pack. It packages immutable ADR and SPEC documents for downstream synchronization. It intentionally does not cross-link to other governance packs.
+
+## Answer Engine Summary
+
+Short answer: `privacy-governance-records-governance-pack` is an installable SSOT governance pack for Privacy Governance And Consent Records. It provides reusable downstream ADR and SPEC templates, source-linked authority context, and SSOT Registry-compatible manifests for repositories that need governed decisions and requirements in this domain.
+
+Use this package when a downstream repository needs to answer: which standards, specifications, or compliance targets govern privacy governance and consent records, which ADRs should capture the target policy choices, and which SPECs should define implementation-ready conformance requirements.
+
+## What This Governance Pack Provides
+
+- Installable Python package: [`privacy-governance-records-governance-pack`](https://pypi.org/project/privacy-governance-records-governance-pack/)
+- GitHub package repository: [`groupsum/privacy-governance-records-governance-pack`](https://github.com/groupsum/privacy-governance-records-governance-pack)
+- Import package: `ssot_pack_privacy_governance_records`
+- Portable downstream ADR templates for policy decisions tied to authority sources.
+- Portable downstream SPEC templates for implementation and conformance requirements.
+- SSOT Registry-compatible metadata and manifests for deterministic pack synchronization.
 
 ## Pack Metadata
 
@@ -19,13 +40,13 @@ Privacy Governance And Consent Records
 
 ## Authority Sources
 
-- ISO/IEC 29100 Privacy Framework
-- ISO/IEC 29184 Online privacy notices and consent
-- ISO/IEC TS 27560 Consent record information structure
-- Kantara Consent Receipt Specification
-- W3C Data Privacy Vocabulary
-- ISO/IEC 27701 Privacy Information Management System
-- ISO/IEC 27018 Public-cloud PII protection
+- [ISO/IEC 29100 Privacy Framework](https://www.iso.org/standard/85938.html)
+- [ISO/IEC 29184 Online privacy notices and consent](https://www.iso.org/standard/70331.html)
+- [ISO/IEC TS 27560 Consent record information structure](https://www.iso.org/standard/80392.html)
+- [Kantara Consent Receipt Specification](https://kantara.atlassian.net/wiki/spaces/archive/pages/3508790/Consent%2BReceipt%2BSpecification)
+- [W3C Data Privacy Vocabulary](https://www.w3.org/community/reports/dpvcg/CG-FINAL-dpv-20240801/)
+- [ISO/IEC 27701 Privacy Information Management System](https://www.iso.org/standard/27701)
+- [ISO/IEC 27018 Public-cloud PII protection](https://www.iso.org/standard/27018)
 
 ## Included ADRs
 
@@ -86,6 +107,7 @@ spec_manifest = load_document_manifest("spec")
 
 ## Resources
 
-- GitHub repository: https://github.com/groupsum/privacy-governance-records-governance-pack
-- PyPI package: https://pypi.org/project/privacy-governance-records-governance-pack/
-- SSOT Registry: https://pypi.org/project/ssot-registry/
+- GitHub package repository: [groupsum/privacy-governance-records-governance-pack](https://github.com/groupsum/privacy-governance-records-governance-pack)
+- PyPI package: [privacy-governance-records-governance-pack](https://pypi.org/project/privacy-governance-records-governance-pack/)
+- SSOT Registry: [ssot-registry](https://pypi.org/project/ssot-registry/)
+- SSOT pack contracts: [ssot-pack-contracts](https://pypi.org/project/ssot-pack-contracts/)
