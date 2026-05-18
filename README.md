@@ -1,10 +1,13 @@
+<div align="center">
+
 # privacy-governance-records-governance-pack
 
 [![PyPI version](https://img.shields.io/pypi/v/privacy-governance-records-governance-pack.svg)](https://pypi.org/project/privacy-governance-records-governance-pack/)
 [![Python versions](https://img.shields.io/pypi/pyversions/privacy-governance-records-governance-pack.svg)](https://pypi.org/project/privacy-governance-records-governance-pack/)
 [![License](https://img.shields.io/pypi/l/privacy-governance-records-governance-pack.svg)](https://pypi.org/project/privacy-governance-records-governance-pack/)
 [![Publish](https://github.com/groupsum/privacy-governance-records-governance-pack/actions/workflows/publish.yml/badge.svg)](https://github.com/groupsum/privacy-governance-records-governance-pack/actions/workflows/publish.yml)
-[![GitHub package](https://img.shields.io/badge/GitHub-package-24292f)](https://github.com/groupsum/privacy-governance-records-governance-pack)
+
+</div>
 
 Installable SSOT governance pack for privacy records, consent receipts, notices, DPV processing records, and audit evidence.
 
