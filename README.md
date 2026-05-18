@@ -49,35 +49,35 @@ Privacy Governance And Consent Records
 
 ## Included ADRs
 
-- `adr:privacy-governance-record-source-policy` - Privacy Governance Record Source Policy
-- `adr:iso-29100-privacy-framework-policy` - ISO 29100 Privacy Framework Policy
-- `adr:iso-29184-privacy-notice-policy` - ISO 29184 Privacy Notice Policy
-- `adr:iso-27560-consent-record-policy` - ISO 27560 Consent Record Policy
-- `adr:kantara-consent-receipt-policy` - Kantara Consent Receipt Policy
-- `adr:dpv-processing-record-policy` - DPV Processing Record Policy
-- `adr:privacy-audit-evidence-policy` - Privacy Audit Evidence Policy
-- `adr:iso-27701-pims-policy` - ISO 27701 PIMS Policy
-- `adr:iso-27018-cloud-pii-policy` - ISO 27018 Cloud PII Policy
-- `adr:privacy-record-retention-policy` - Privacy Record Retention Policy
+- [`adr:privacy-governance-record-source-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1001-privacy-governance-record-source-policy.yaml) - Privacy Governance Record Source Policy
+- [`adr:iso-29100-privacy-framework-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1002-iso-29100-privacy-framework-policy.yaml) - ISO 29100 Privacy Framework Policy
+- [`adr:iso-29184-privacy-notice-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1003-iso-29184-privacy-notice-policy.yaml) - ISO 29184 Privacy Notice Policy
+- [`adr:iso-27560-consent-record-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1004-iso-27560-consent-record-policy.yaml) - ISO 27560 Consent Record Policy
+- [`adr:kantara-consent-receipt-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1005-kantara-consent-receipt-policy.yaml) - Kantara Consent Receipt Policy
+- [`adr:dpv-processing-record-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1006-dpv-processing-record-policy.yaml) - DPV Processing Record Policy
+- [`adr:privacy-audit-evidence-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1007-privacy-audit-evidence-policy.yaml) - Privacy Audit Evidence Policy
+- [`adr:iso-27701-pims-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1008-iso-27701-pims-policy.yaml) - ISO 27701 PIMS Policy
+- [`adr:iso-27018-cloud-pii-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1009-iso-27018-cloud-pii-policy.yaml) - ISO 27018 Cloud PII Policy
+- [`adr:privacy-record-retention-policy`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/adr/ADR-1010-privacy-record-retention-policy.yaml) - Privacy Record Retention Policy
 
 ## Included SPECs
 
-- `spc:iso-29100-privacy-principles-requirements` - ISO 29100 Privacy Principles Requirements
-- `spc:iso-29100-pii-role-requirements` - ISO 29100 PII Role Requirements
-- `spc:iso-29184-notice-content-requirements` - ISO 29184 Notice Content Requirements
-- `spc:iso-29184-notice-presentation-requirements` - ISO 29184 Notice Presentation Requirements
-- `spc:iso-27560-consent-record-structure-requirements` - ISO 27560 Consent Record Structure Requirements
-- `spc:iso-27560-consent-lifecycle-requirements` - ISO 27560 Consent Lifecycle Requirements
-- `spc:kantara-consent-receipt-core-requirements` - Kantara Consent Receipt Core Requirements
-- `spc:kantara-consent-receipt-policy-requirements` - Kantara Consent Receipt Policy Requirements
-- `spc:dpv-processing-purpose-requirements` - DPV Processing Purpose Requirements
-- `spc:dpv-personal-data-category-requirements` - DPV Personal Data Category Requirements
-- `spc:dpv-rights-risk-measure-requirements` - DPV Rights Risk Measure Requirements
-- `spc:iso-27701-pims-evidence-requirements` - ISO 27701 PIMS Evidence Requirements
-- `spc:iso-27018-cloud-pii-evidence-requirements` - ISO 27018 Cloud PII Evidence Requirements
-- `spc:privacy-record-retention-requirements` - Privacy Record Retention Requirements
-- `spc:privacy-record-export-requirements` - Privacy Record Export Requirements
-- `spc:privacy-record-evidence-linkage-requirements` - Privacy Record Evidence Linkage Requirements
+- [`spc:iso-29100-privacy-principles-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2001-iso-29100-privacy-principles-requirements.yaml) - ISO 29100 Privacy Principles Requirements
+- [`spc:iso-29100-pii-role-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2002-iso-29100-pii-role-requirements.yaml) - ISO 29100 PII Role Requirements
+- [`spc:iso-29184-notice-content-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2003-iso-29184-notice-content-requirements.yaml) - ISO 29184 Notice Content Requirements
+- [`spc:iso-29184-notice-presentation-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2004-iso-29184-notice-presentation-requirements.yaml) - ISO 29184 Notice Presentation Requirements
+- [`spc:iso-27560-consent-record-structure-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2005-iso-27560-consent-record-structure-requirements.yaml) - ISO 27560 Consent Record Structure Requirements
+- [`spc:iso-27560-consent-lifecycle-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2006-iso-27560-consent-lifecycle-requirements.yaml) - ISO 27560 Consent Lifecycle Requirements
+- [`spc:kantara-consent-receipt-core-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2007-kantara-consent-receipt-core-requirements.yaml) - Kantara Consent Receipt Core Requirements
+- [`spc:kantara-consent-receipt-policy-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2008-kantara-consent-receipt-policy-requirements.yaml) - Kantara Consent Receipt Policy Requirements
+- [`spc:dpv-processing-purpose-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2009-dpv-processing-purpose-requirements.yaml) - DPV Processing Purpose Requirements
+- [`spc:dpv-personal-data-category-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2010-dpv-personal-data-category-requirements.yaml) - DPV Personal Data Category Requirements
+- [`spc:dpv-rights-risk-measure-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2011-dpv-rights-risk-measure-requirements.yaml) - DPV Rights Risk Measure Requirements
+- [`spc:iso-27701-pims-evidence-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2012-iso-27701-pims-evidence-requirements.yaml) - ISO 27701 PIMS Evidence Requirements
+- [`spc:iso-27018-cloud-pii-evidence-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2013-iso-27018-cloud-pii-evidence-requirements.yaml) - ISO 27018 Cloud PII Evidence Requirements
+- [`spc:privacy-record-retention-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2014-privacy-record-retention-requirements.yaml) - Privacy Record Retention Requirements
+- [`spc:privacy-record-export-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2015-privacy-record-export-requirements.yaml) - Privacy Record Export Requirements
+- [`spc:privacy-record-evidence-linkage-requirements`](https://github.com/groupsum/privacy-governance-records-governance-pack/blob/master/src/ssot_pack_privacy_governance_records/templates/specs/SPEC-2016-privacy-record-evidence-linkage-requirements.yaml) - Privacy Record Evidence Linkage Requirements
 
 ## Install With uv
 

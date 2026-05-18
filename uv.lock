@@ -51,6 +51,29 @@ wheels = [
 ]
 
 [[package]]
+name = "privacy-governance-records-governance-pack"
+version = "0.1.1.dev1"
+source = { editable = "." }
+dependencies = [
+    { name = "ssot-pack-contracts" },
+    { name = "tomli", marker = "python_full_version < '3.11'" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ssot-pack-contracts", specifier = ">=0.2.17,<0.3.0" },
+    { name = "tomli", marker = "python_full_version < '3.11'", specifier = ">=2.0.1" },
+]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=8.0" }]
+
+[[package]]
 name = "pygments"
 version = "2.20.0"
 source = { registry = "https://pypi.org/simple" }
@@ -88,29 +111,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/27/fc/4b4b8892c7cf58416
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a8/9e/202c998b7c3bc54af97e6f3b31f6062f3df4a73a28e47671c305168928b6/ssot_pack_contracts-0.2.18-py3-none-any.whl", hash = "sha256:a568c5f1518e8c4f2eaf79aed1fbde3bd28a0575e5b489f9ae9d249ad3b2b630", size = 6809 },
 ]
-
-[[package]]
-name = "privacy-governance-records-governance-pack"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "ssot-pack-contracts" },
-    { name = "tomli", marker = "python_full_version < '3.11'" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pytest" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "ssot-pack-contracts", specifier = ">=0.2.17,<0.3.0" },
-    { name = "tomli", marker = "python_full_version < '3.11'", specifier = ">=2.0.1" },
-]
-
-[package.metadata.requires-dev]
-dev = [{ name = "pytest", specifier = ">=8.0" }]
 
 [[package]]
 name = "tomli"
