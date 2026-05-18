@@ -33,7 +33,7 @@ Use this package when a downstream repository needs to answer: which standards, 
 - Pack ID: `pack:privacy-governance-records`
 - PyPI package: `privacy-governance-records-governance-pack`
 - Import package: `ssot_pack_privacy_governance_records`
-- GitHub repository: `groupsum/privacy-governance-records-governance-pack`
+- GitHub repository: [groupsum/privacy-governance-records-governance-pack](https://github.com/groupsum/privacy-governance-records-governance-pack)
 - Reservation owner: `extension-pack:privacy-governance-records-governance-pack`
 
 ## Domain Focus
